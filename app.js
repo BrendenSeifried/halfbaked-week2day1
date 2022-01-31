@@ -77,6 +77,6 @@ save.addEventListener('click', () => {
     // Push the new object onto the games array then call renderGames
     // reset the stats with resetStats
     renderGames();
-    renderStats();
+    resetStats();
   
 });
