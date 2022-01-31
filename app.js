@@ -45,7 +45,7 @@ form.addEventListener('submit', (e) => {
         points: parseInt(addStat.get('points')),
        
     };
-    console.log(userData);
+    //console.log(userData);
     stats.push(userData);
     renderStats();
 
